@@ -55,6 +55,7 @@
 @synthesize contentView=_contentView, backgroundView=_backgroundView, selectedBackgroundView=_selectedBackgroundView;
 @synthesize reuseIdentifier=_reuseIdentifier, selectionGlowColor=_selectionGlowColor;
 @synthesize selectionGlowShadowRadius=_selectionGlowShadowRadius;
+@synthesize targetPosition, destinationPosition;
 
 - (id) initWithFrame: (CGRect) frame reuseIdentifier: (NSString *) reuseIdentifier
 {

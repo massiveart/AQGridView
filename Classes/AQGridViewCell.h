@@ -91,6 +91,10 @@ typedef enum {
 
 - (id) initWithFrame: (CGRect) frame reuseIdentifier: (NSString *) reuseIdentifier;
 
+@property (nonatomic, assign) CGRect targetPosition;
+
+@property(nonatomic, assign) CGRect destinationPosition;
+
 // If you want to customize cells by simply adding additional views, you should add them to the content view so they will be positioned appropriately as the cell transitions into and out of editing mode.
 @property (nonatomic, readonly, strong) UIView * contentView;
 
